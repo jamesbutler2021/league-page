@@ -24,5 +24,7 @@ jobs:
           pip install -r scripts/requirements.txt  # If your script has dependencies
 
       - name: Run the script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Setting token as an environment variable
         run: |
           python scripts/ktcpull.py
