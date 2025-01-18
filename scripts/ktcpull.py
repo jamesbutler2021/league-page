@@ -6,6 +6,9 @@ from tqdm import tqdm
 import sys,time,random
 from datetime import date, datetime
 import csv
+from github import Github
+import os
+import io
 
 """
 Scrapes all Superflex and 1QB values for all players in the live keeptradecut database.
