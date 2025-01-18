@@ -214,7 +214,7 @@ def export_to_github(players, format='1QB', tep=0):
     github_token = os.getenv('GITHUB_TOKEN') # Ensure your token is set as an environment variable or replace this line with your token directly
     g = Github(github_token)
     repo = g.get_repo("jamesbutler2021/league-page")  # Replace with your GitHub username/repo
-    file_path = "/scripts/ktc.csv"  # Path to the file in your repo
+    file_path = "scripts/ktc.csv"  # Path to the file in your repo
     commit_message = f"Update KTC CSV for {date.today().strftime('%B %d, %Y')}"
 
     try:
