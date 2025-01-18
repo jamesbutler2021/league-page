@@ -1,6 +1,2 @@
-requests
-beautifulsoup4
-gspread
-oauth2client
-tqdm
 github
+io
