@@ -21,23 +21,23 @@ export const tabs = [
         label: 'Blog',
         dest: '/blog',
     },
-    {
-        icon: 'sports_esports',
-        label: 'Dynasty',
-        nest: true,
-        children: [
-            {
-                icon: 'trending_up',
-                label: 'Dynasty Player Rankings',
-                dest: '/dynastyplayerrankings',
-            },
-            {
-                icon: 'leaderboard',
-                label: 'Dynasty Power Rankings',
-                dest: '/dynastypowerrankings',
-            }
-        ]
-    },
+  //  {
+  //      icon: 'view_comfy',
+  //      label: 'Dynasty',
+  //      nest: true,
+  //      children: [
+  //          {
+  //              icon: 'trending_up',
+  //              label: 'Dynasty Player Rankings',
+  //              dest: '/dynastyplayerrankings',
+  //          },
+  //          {
+  //              icon: 'leaderboard',
+  //              label: 'Dynasty Power Rankings',
+  //              dest: '/dynastypowerrankings',
+  //          }
+  //      ]
+  //  },
     {
         icon: 'view_comfy',
         label: 'League Info',
