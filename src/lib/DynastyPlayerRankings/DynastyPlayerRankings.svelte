@@ -1,6 +1,6 @@
 <!-- src/lib/DynastyRankings.svelte -->
 <script>
-  // You can import a store or any helpers here later when fetching the data.
+  // Add logic for later (e.g., fetching data from the API)
 </script>
 
 <style>
@@ -25,7 +25,7 @@
   <h1>Dynasty Player Rankings</h1>
   <p>Data will be displayed here once fetched from the API.</p>
 
-  <!-- You can later add a table to display player data -->
+  <!-- Placeholder for displaying the rankings (you can update this later with dynamic data) -->
   <table class="dynasty-table">
     <thead>
       <tr>
@@ -35,7 +35,7 @@
       </tr>
     </thead>
     <tbody>
-      <!-- Player rows will be dynamically added here after data is fetched -->
+      <!-- Player data will be inserted here dynamically -->
     </tbody>
   </table>
 </div>
